@@ -29,8 +29,8 @@ var alertProper = UIAlertProper()
 
 alertProper.showOptimalAlertViewController(self, Title: "test", Message: "message",
     okTitle: "OK", cancelTitle: "Cancel",
-    okHandler: { () -> () in // do something },
-    cancelHandler: { () -> () in // do something }) }
+    okHandler: { () -> () in /* do something */ },
+    cancelHandler: { () -> () in /* do something */ }) }
 ```
 
 #### showOptimalAlertViewControllerWithoutCancel
@@ -47,7 +47,8 @@ Parameter
 Sample Code
 ```Swift
 var alertProper = UIAlertProper()
-alertProper.showOptimalAlertViewControllerWithoutCancel(self, Title: "test", Message: "message", okTitle: "ok") { () -> () in // do something }
+alertProper.showOptimalAlertViewControllerWithoutCancel(self, Title: "test", Message: "message",
+    okTitle: "ok") { () -> () in /* do something */ }
 ```
 ---
 ## LICENSE
